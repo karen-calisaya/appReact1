@@ -1,15 +1,12 @@
 import '../assets/css/app.css';
-import TopBar from './TopBar';
-import SideBar from './SideBar';
+import ContentWrapper from './ContentWrapper';
 
 function App() {
   return (
     <div className="App">
-       <h1>hola</h1>
-       <TopBar />
-       <SideBar />
-
+       <ContentWrapper />
     </div>
+
   );
 }
 
