@@ -3,7 +3,7 @@ import jordan from '../assets/images/jordan-walke.png'
 function TopBar(){
     return(
         <div>
-           {/*  <!-- Topbar --> */}
+           {/* <!-- Topbar --> */}
 				<nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
 					{/* <!-- Sidebar Toggle (Topbar) --> */}
@@ -14,7 +14,7 @@ function TopBar(){
 					{/* <!-- Topbar Navbar --> */}
 					<ul className="navbar-nav ml-auto">
 
-					{/* 	<!-- Nav Item - Alerts --> */}
+						{/* <!-- Nav Item - Alerts --> */}
 						<li className="nav-item dropdown no-arrow mx-1">
 							<a className="nav-link dropdown-toggle" href="/" id="alertsDropdown">
 								<i className="fas fa-bell fa-fw"></i>
@@ -45,7 +45,7 @@ function TopBar(){
 					</ul>
 
 				</nav>
-				{/* <!-- End of Topbar --> */}
+			{/* <!-- End of Topbar --> */}
         </div>
     )
 }

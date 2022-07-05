@@ -5,25 +5,19 @@ import ContentRowTop from "./ContentRowTop";
 function ContentWrapper(){
     return(
         <div>
-            <body>
-            <div id="wrapper">
-                   {/*  <!-- Content Wrapper --> */}
-                <div id="content-wrapper" className="d-flex flex-column">
+            {/* <!-- Content Wrapper --> */}
+		    <div id="content-wrapper" className="d-flex flex-column">
+
+                {/* <!-- Main Content --> */}
+                <div id="content">
                     <TopBar />
-                   {/*  <!-- Main Content --> */}
-                    <div id="content">
-                        <ContentRowTop />
-                       
-                    </div>
-                    {/* <!-- End of MainContent --> */}
+                    <ContentRowTop />
                 </div>
-               {/*  <!-- End of Content Wrapper --> */}
-            </div>
-            {/* <!-- End of Page Wrapper -->  */}
-            <Footer />
-            </body>
+                {/* <!-- End of MainContent --> */}
+			        <Footer />
+		</div>
+		{/* <!-- End of Content Wrapper --> */}
         </div>
-        
     )
 }
 
